@@ -1,0 +1,342 @@
+{
+  "artworks": [
+    {
+      "id": "w001",
+      "title": "Silence, Rendered in Gold",
+      "year": 2022,
+      "category": "Character",
+      "tools": [
+        "Photoshop",
+        "Illustrator"
+      ],
+      "status": "Available",
+      "price": 550000,
+      "sold_for": null,
+      "dimensions": "70 × 100 cm",
+      "delivery": "High-resolution JPG + layered PSD",
+      "popularity": 81,
+      "description": "A character study without spectacle — expression reduced to essentials. The gesture is minimal, the presence unmistakable.",
+      "images": [
+        "assets/uploads/w001-a.jpg",
+        "assets/uploads/w001-b.jpg",
+        "assets/uploads/w001-c.jpg"
+      ]
+    },
+    {
+      "id": "w002",
+      "title": "Catalogue of Distant Rooms",
+      "year": 2023,
+      "category": "Concept",
+      "tools": [
+        "Procreate",
+        "After Effects"
+      ],
+      "status": "Sold",
+      "price": null,
+      "sold_for": 1350000,
+      "dimensions": "A2 (42 × 59.4 cm)",
+      "delivery": "PNG + layered PSD",
+      "popularity": 41,
+      "description": "A room that prioritizes breathing space. Light behaves like a soft rule: it reveals only what is necessary, and nothing more.",
+      "images": [
+        "assets/uploads/w002-a.jpg",
+        "assets/uploads/w002-b.jpg",
+        "assets/uploads/w002-c.jpg"
+      ]
+    },
+    {
+      "id": "w003",
+      "title": "The Hour Between Names",
+      "year": 2021,
+      "category": "Cover",
+      "tools": [
+        "Photoshop",
+        "Lightroom"
+      ],
+      "status": "Available",
+      "price": 1850000,
+      "sold_for": null,
+      "dimensions": "50 × 70 cm",
+      "delivery": "High-resolution JPG + layered PSD",
+      "popularity": 63,
+      "description": "A disciplined study of restraint — light withheld until it becomes language. The surface is calm, but the structure carries weight, like a page that remembers being touched.",
+      "images": [
+        "assets/uploads/w003-a.jpg"
+      ]
+    },
+    {
+      "id": "w004",
+      "title": "Dust Jacket for a Storm",
+      "year": 2025,
+      "category": "Character",
+      "tools": [
+        "Clip Studio Paint",
+        "Photoshop"
+      ],
+      "status": "Available",
+      "price": 2500000,
+      "sold_for": null,
+      "dimensions": "A2 (42 × 59.4 cm)",
+      "delivery": "PNG + layered PSD",
+      "popularity": 57,
+      "description": "Built like an archival document: measured, quiet, deliberate. The composition invites slow reading, rewarding attention with subtle shifts in temperature and depth.",
+      "images": [
+        "assets/uploads/w004-a.jpg",
+        "assets/uploads/w004-b.jpg",
+        "assets/uploads/w004-c.jpg"
+      ]
+    },
+    {
+      "id": "w005",
+      "title": "Portrait of a Quiet Verdict",
+      "year": 2019,
+      "category": "Environment",
+      "tools": [
+        "Clip Studio Paint",
+        "Photoshop"
+      ],
+      "status": "Available",
+      "price": 550000,
+      "sold_for": null,
+      "dimensions": "60 × 90 cm",
+      "delivery": "Layered PSD + color profile pack",
+      "popularity": 58,
+      "description": "A room that prioritizes breathing space. Light behaves like a soft rule: it reveals only what is necessary, and nothing more.",
+      "images": [
+        "assets/uploads/w005-a.jpg",
+        "assets/uploads/w005-b.jpg"
+      ]
+    },
+    {
+      "id": "w006",
+      "title": "Anatomy of Soft Distance",
+      "year": 2024,
+      "category": "Cover",
+      "tools": [
+        "Procreate",
+        "After Effects"
+      ],
+      "status": "Sold",
+      "price": null,
+      "sold_for": 1250000,
+      "dimensions": "50 × 70 cm",
+      "delivery": "PNG + layered PSD",
+      "popularity": 47,
+      "description": "Built like an archival document: measured, quiet, deliberate. The composition invites slow reading, rewarding attention with subtle shifts in temperature and depth.",
+      "images": [
+        "assets/uploads/w006-a.jpg",
+        "assets/uploads/w006-b.jpg"
+      ]
+    },
+    {
+      "id": "w007",
+      "title": "Where Light Learns Restraint",
+      "year": 2020,
+      "category": "Concept",
+      "tools": [
+        "Photoshop",
+        "Illustrator"
+      ],
+      "status": "Sold",
+      "price": null,
+      "sold_for": 2250000,
+      "dimensions": "50 × 70 cm",
+      "delivery": "High-resolution JPG + layered PSD",
+      "popularity": 46,
+      "description": "A character study without spectacle — expression reduced to essentials. The gesture is minimal, the presence unmistakable.",
+      "images": [
+        "assets/uploads/w007-a.jpg",
+        "assets/uploads/w007-b.jpg"
+      ]
+    },
+    {
+      "id": "w008",
+      "title": "Index of Forgotten Warmth",
+      "year": 2022,
+      "category": "Social",
+      "tools": [
+        "Photoshop",
+        "Illustrator"
+      ],
+      "status": "Sold",
+      "price": null,
+      "sold_for": 1850000,
+      "dimensions": "A1 (59.4 × 84.1 cm)",
+      "delivery": "Print-ready PDF (CMYK) + JPG preview",
+      "popularity": 88,
+      "description": "A character study without spectacle — expression reduced to essentials. The gesture is minimal, the presence unmistakable.",
+      "images": [
+        "assets/uploads/w008-a.jpg"
+      ]
+    },
+    {
+      "id": "w009",
+      "title": "A Library of Skin & Ink",
+      "year": 2023,
+      "category": "Cover",
+      "tools": [
+        "Blender",
+        "Photoshop"
+      ],
+      "status": "Available",
+      "price": 550000,
+      "sold_for": null,
+      "dimensions": "A2 (42 × 59.4 cm)",
+      "delivery": "High-resolution JPG + layered PSD",
+      "popularity": 69,
+      "description": "A disciplined study of restraint — light withheld until it becomes language. The surface is calm, but the structure carries weight, like a page that remembers being touched.",
+      "images": [
+        "assets/uploads/w009-a.jpg",
+        "assets/uploads/w009-b.jpg",
+        "assets/uploads/w009-c.jpg"
+      ]
+    },
+    {
+      "id": "w010",
+      "title": "The City That Refused Noise",
+      "year": 2021,
+      "category": "Environment",
+      "tools": [
+        "Clip Studio Paint",
+        "Photoshop"
+      ],
+      "status": "Sold",
+      "price": null,
+      "sold_for": 950000,
+      "dimensions": "A2 (42 × 59.4 cm)",
+      "delivery": "PNG + layered PSD",
+      "popularity": 47,
+      "description": "A character study without spectacle — expression reduced to essentials. The gesture is minimal, the presence unmistakable.",
+      "images": [
+        "assets/uploads/w010-a.jpg"
+      ]
+    },
+    {
+      "id": "w011",
+      "title": "Cover Study: Midnight Paper",
+      "year": 2025,
+      "category": "Concept",
+      "tools": [
+        "Procreate",
+        "Photoshop"
+      ],
+      "status": "Sold",
+      "price": null,
+      "sold_for": 1300000,
+      "dimensions": "A1 (59.4 × 84.1 cm)",
+      "delivery": "High-resolution JPG + layered PSD",
+      "popularity": 83,
+      "description": "A disciplined study of restraint — light withheld until it becomes language. The surface is calm, but the structure carries weight, like a page that remembers being touched.",
+      "images": [
+        "assets/uploads/w011-a.jpg"
+      ]
+    },
+    {
+      "id": "w012",
+      "title": "Character Plate: Patient Flame",
+      "year": 2019,
+      "category": "Cover",
+      "tools": [
+        "Photoshop",
+        "Illustrator"
+      ],
+      "status": "Available",
+      "price": 550000,
+      "sold_for": null,
+      "dimensions": "50 × 70 cm",
+      "delivery": "Layered PSD + color profile pack",
+      "popularity": 75,
+      "description": "A room that prioritizes breathing space. Light behaves like a soft rule: it reveals only what is necessary, and nothing more.",
+      "images": [
+        "assets/uploads/w012-a.jpg",
+        "assets/uploads/w012-b.jpg",
+        "assets/uploads/w012-c.jpg"
+      ]
+    },
+    {
+      "id": "w013",
+      "title": "Environment: Room for Air",
+      "year": 2024,
+      "category": "Social",
+      "tools": [
+        "Procreate",
+        "Photoshop"
+      ],
+      "status": "Sold",
+      "price": null,
+      "sold_for": 3600000,
+      "dimensions": "50 × 70 cm",
+      "delivery": "PNG + layered PSD",
+      "popularity": 77,
+      "description": "Built like an archival document: measured, quiet, deliberate. The composition invites slow reading, rewarding attention with subtle shifts in temperature and depth.",
+      "images": [
+        "assets/uploads/w013-a.jpg"
+      ]
+    },
+    {
+      "id": "w014",
+      "title": "Concept: The Unasked Question",
+      "year": 2020,
+      "category": "Cover",
+      "tools": [
+        "Photoshop",
+        "Lightroom"
+      ],
+      "status": "Available",
+      "price": 2500000,
+      "sold_for": null,
+      "dimensions": "70 × 100 cm",
+      "delivery": "PNG + layered PSD",
+      "popularity": 40,
+      "description": "Built like an archival document: measured, quiet, deliberate. The composition invites slow reading, rewarding attention with subtle shifts in temperature and depth.",
+      "images": [
+        "assets/uploads/w014-a.jpg",
+        "assets/uploads/w014-b.jpg"
+      ]
+    },
+    {
+      "id": "w015",
+      "title": "Social Series: Small Holy Things",
+      "year": 2022,
+      "category": "Concept",
+      "tools": [
+        "Procreate",
+        "Photoshop"
+      ],
+      "status": "Available",
+      "price": 1350000,
+      "sold_for": null,
+      "dimensions": "A2 (42 × 59.4 cm)",
+      "delivery": "Layered PSD + color profile pack",
+      "popularity": 69,
+      "description": "An image designed to hold silence without emptiness. Negative space is treated as material; the work feels less displayed than carefully placed.",
+      "images": [
+        "assets/uploads/w015-a.jpg",
+        "assets/uploads/w015-b.jpg",
+        "assets/uploads/w015-c.jpg"
+      ]
+    },
+    {
+      "id": "w016",
+      "title": "A Note Written in Shadow",
+      "year": 2023,
+      "category": "Environment",
+      "tools": [
+        "Clip Studio Paint",
+        "Photoshop"
+      ],
+      "status": "Sold",
+      "price": null,
+      "sold_for": 2900000,
+      "dimensions": "50 × 70 cm",
+      "delivery": "Print-ready PDF (CMYK) + JPG preview",
+      "popularity": 58,
+      "description": "A disciplined study of restraint — light withheld until it becomes language. The surface is calm, but the structure carries weight, like a page that remembers being touched.",
+      "images": [
+        "assets/uploads/w016-a.jpg",
+        "assets/uploads/w016-b.jpg",
+        "assets/uploads/w016-c.jpg"
+      ]
+    }
+  ]
+}

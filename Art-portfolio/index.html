@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Digital Art Exhibition</title>
+  <meta name="description" content="Museum-grade digital portfolio — a quiet, editorial exhibition.">
+  <link rel="icon" type="image/png" href="assets/uploads/favicon.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+  
+</head>
+<body class="theme-cream">
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="header-inner">
+      <div class="brand">
+        <a href="index.html" class="brand-mark" aria-label="Home">
+          <span class="monogram" aria-hidden="true">WP</span>
+          <span class="handle" data-site="handle">@wechie.prosper</span>
+        </a>
+      </div>
+
+      <nav class="site-nav" aria-label="Primary">
+        <a href="index.html" data-nav="home">Home</a>
+        <a href="works.html" data-nav="works">Works</a>
+        <a href="commission.html" data-nav="commission">Commission</a>
+        <a href="contact.html" data-nav="contact">Contact</a>
+        <a href="terms.html" data-nav="terms">Terms</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="icon" href="#" aria-label="Instagram" title="Instagram" data-social="ig">
+          <span aria-hidden="true">⌁</span>
+        </a>
+        <a class="icon" href="#" aria-label="Behance" title="Behance" data-social="be">
+          <span aria-hidden="true">⌂</span>
+        </a>
+        <a class="btn btn-quiet" href="contact.html">Contact</a>
+      </div>
+
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+    <div class="hairline"></div>
+    <div class="mobile-nav" hidden>
+      <a href="index.html">Home</a>
+      <a href="works.html">Works</a>
+      <a href="commission.html">Commission</a>
+      <a href="contact.html">Contact</a>
+      <a href="terms.html">Terms</a>
+    </div>
+  </header>
+
+  <main id="main">
+  <section class="hero">
+    <div class="hero-grid">
+      <div class="hero-copy reveal">
+        <p class="kicker">Digital Art Exhibition</p>
+        <h1 class="hero-title" data-site="hero_headline">I do not decorate.<br>I document feeling.<br>I build images that hold still.</h1>
+        <p class="hero-sub" data-site="hero_sub">Selected works, commissions, and licensing — presented as an exhibition catalogue.</p>
+        <div class="hero-meta">
+          <p class="fine">Artist: <span data-site="name">Ebele Nwosu</span> — <span data-site="location">Lagos, NG</span></p>
+          <p class="fine">Availability: limited commissions + licensing inquiries.</p>
+        </div>
+      </div>
+
+      <figure class="hero-figure reveal">
+        <div class="frame">
+          <img id="heroFeaturedImg" src="assets/uploads/w001-a.jpg" alt="Featured artwork">
+        </div>
+        <figcaption class="caption">
+          <span class="label">Featured</span>
+          <span id="heroFeaturedCaption">Silence, Rendered in Gold — Cover (2025)</span>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section section-featured">
+    <div class="section-head reveal">
+      <h2 class="section-title">Featured Works</h2>
+      <p class="section-note">A selection presented like a catalogue. Some pieces are available; others are recorded as sold.</p>
+    </div>
+
+    <div class="works-grid" id="homeFeaturedGrid" aria-live="polite"></div>
+
+    <div class="section-actions reveal">
+      <a class="btn" href="works.html">View full catalogue</a>
+      <a class="btn btn-quiet" href="commission.html">Commission information</a>
+    </div>
+  </section>
+
+  <section class="section section-about">
+    <div class="about-grid">
+      <div class="about-copy reveal">
+        <p class="kicker" data-site="about_label">About</p>
+        <h2 class="display">Museum-grade, but human.</h2>
+        <p class="lead" data-site="about_text">
+          My practice is editorial: each piece is composed with the discipline of print.
+          I treat whitespace as material and hierarchy as a form of respect.
+          Whether a cover illustration or a conceptual plate, the goal is the same:
+          to create a quiet object of attention — museum-grade, unhurried, exact.
+        </p>
+        <p class="fine">For licensing, collections, or editorial collaborations, use the contact form.</p>
+      </div>
+
+      <figure class="about-portrait reveal">
+        <div class="frame frame-portrait">
+          <img src="assets/uploads/portrait-archival.jpg" alt="Archival portrait (placeholder)">
+        </div>
+        <figcaption class="caption"><span class="label">Archival</span><span>Portrait study, 2024</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p class="fine">© <span id="yearNow"></span> <span data-site="name">Ebele Nwosu</span>. Presented as a digital exhibition catalogue.</p>
+      <p class="fine"><a href="#top">Back to top</a></p>
+    </div>
+  </footer>
+
+  <div class="veil" aria-hidden="true"></div>
+
+  <script src="assets/js/app.js" defer></script>
+</body>
+</html>

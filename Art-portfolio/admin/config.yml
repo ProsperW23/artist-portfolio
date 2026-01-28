@@ -1,0 +1,60 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "site"
+    label: "Site"
+    files:
+      - file: "content/site.json"
+        label: "Site Settings"
+        name: "settings"
+        fields:
+          - label: "Artist"
+            name: "artist"
+            widget: "object"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Handle", name: "handle", widget: "string" }
+              - { label: "Initials", name: "initials", widget: "string" }
+              - { label: "Location", name: "location", widget: "string" }
+              - { label: "Bio", name: "bio", widget: "text" }
+          - label: "Home"
+            name: "home"
+            widget: "object"
+            fields:
+              - { label: "Hero Headline (use \n for line breaks)", name: "hero_headline", widget: "text" }
+              - { label: "Hero Subtext", name: "hero_sub", widget: "string" }
+              - { label: "About Label", name: "about_label", widget: "string" }
+              - { label: "About Text", name: "about_text", widget: "text" }
+
+  - name: "artworks"
+    label: "Artworks"
+    files:
+      - file: "content/artworks.json"
+        label: "Artworks"
+        name: "artworks"
+        fields:
+          - label: "Artworks"
+            name: "artworks"
+            widget: "list"
+            fields:
+              - { label: "ID", name: "id", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Year", name: "year", widget: "number" }
+              - { label: "Category", name: "category", widget: "select", options: ["Cover","Character","Environment","Concept","Social"] }
+              - { label: "Tools", name: "tools", widget: "list", field: {label: Tool, name: tool, widget: string} }
+              - { label: "Status", name: "status", widget: "select", options: ["Available","Sold"] }
+              - { label: "Price", name: "price", widget: "number", required: false }
+              - { label: "Sold For", name: "sold_for", widget: "number", required: false }
+              - { label: "Dimensions", name: "dimensions", widget: "string" }
+              - { label: "Delivery", name: "delivery", widget: "string" }
+              - { label: "Popularity", name: "popularity", widget: "number" }
+              - { label: "Description", name: "description", widget: "text" }
+              - label: "Images"
+                name: "images"
+                widget: "list"
+                field: { label: "Image", name: "image", widget: "image" }
