@@ -1,17 +1,27 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="netlify-site-id" content="e4e3c6f7-62e7-4158-a286-a0b70ef52dc4" />
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Content Manager</title>
 
-  <title>Content Manager</title>
-</head>
-<body>
-  <!-- REQUIRED ROOT NODE -->
-  <div id="nc-root"></div>
+    <!-- Decap CMS -->
+    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
 
-  <!-- Load Decap AFTER nc-root exists -->
-  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
-</body>
+    <!-- Netlify OAuth helper (needed for GitHub login on Netlify) -->
+    <script src="https://unpkg.com/netlify-cms-oauth-client@^1.0.0/dist/netlify-cms-oauth-client.js"></script>
+
+    <script>
+      // IMPORTANT: this must be your real site UUID (NOT your .netlify.app url)
+      if (window.netlify) {
+        window.netlify.configure({
+          site_id: "e4e3c6f7-62e7-4158-a286-a0b70ef52dc4"
+        });
+      }
+    </script>
+  </head>
+
+  <body>
+    <div id="nc-root"></div>
+  </body>
 </html>
