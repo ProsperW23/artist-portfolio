@@ -3,7 +3,6 @@ backend:
   repo: ProsperW23/artist-portfolio
   branch: main
 
-site_url: https://digital-exhibitions.netlify.app
 
 
 media_folder: "assets/uploads"
