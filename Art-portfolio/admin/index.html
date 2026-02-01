@@ -1,18 +1,15 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Content Manager</title>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Content Manager</title>
+</head>
+<body>
+  <!-- REQUIRED ROOT NODE -->
+  <div id="nc-root"></div>
 
-    <!-- Netlify Identity (this is what shows GitHub login button) -->
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-
-    <!-- Decap CMS -->
-    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
-  </head>
-  <body>
-    <!-- REQUIRED ROOT NODE (prevents the white screen error) -->
-    <div id="nc-root"></div>
-  </body>
+  <!-- Load Decap AFTER nc-root exists -->
+  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+</body>
 </html>
