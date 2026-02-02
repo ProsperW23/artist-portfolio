@@ -168,19 +168,38 @@ function renderHomeFeatured(){
   const grid = $("#homeFeaturedGrid");
   if(!grid) return;
 
-  const featured = [...state.artworks].slice(0, 8);
-  grid.innerHTML = featured.map(cardHTML).join("");
+  const list = (state && Array.isArray(state.artworks)) ? state.artworks : [];
 
-  // Set hero featured image + caption from first work
-  const first = featured[0];
-  if(first){
-    const img = $("#heroFeaturedImg");
-    const cap = $("#heroFeaturedCaption");
-    if(img) img.src = first.images[0];
-    if(cap) cap.textContent = `${first.title} — ${first.category} (${first.year})`;
+  // 1) If nothing yet, don't crash
+  if(list.length === 0){
+    grid.innerHTML = `<div class="muted">No featured works yet.</div>`;
+    return;
   }
-  initReveal();
+
+  // 2) Pick featured works (if you have a "featured" flag), else just take first 3
+  const featured = list.filter(a => a && a.featured === true);
+  const picks = (featured.length ? featured : list).slice(0, 3);
+
+  // 3) Render safely
+  grid.innerHTML = picks.map(a => {
+    const title = a.title || a.artwork || "Untitled";
+    const img = a.image || a.imageUrl || "";
+    const id = a.slug || a.id || "";
+    const price = (a.price != null) ? a.price : "";
+    const sold = !!a.sold;
+
+    return `
+      <a class="card" href="work.html?id=${encodeURIComponent(id)}">
+        ${img ? `<img src="${img}" alt="${title}">` : ``}
+        <div class="meta">
+          <div class="title">${title}</div>
+          ${price !== "" ? `<div class="price">${sold ? "Sold" : price}</div>` : ``}
+        </div>
+      </a>
+    `;
+  }).join("");
 }
+
 
 function renderWorksCatalogue(){
   const grid = $("#worksGrid");
@@ -464,7 +483,7 @@ async function main(){
   applySiteText();
 
   // page specific
-  // if($("#homeFeaturedGrid")) renderHomeFeatured();
+  if($("#homeFeaturedGrid")) renderHomeFeatured();
   if($("#worksGrid")) renderWorksCatalogue();
   if($("#viewerMain")) renderWorkDetail();
   if($("#commissionAccordion")) renderCommissionAccordion();
