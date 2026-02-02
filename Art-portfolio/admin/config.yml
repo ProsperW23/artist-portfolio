@@ -2,8 +2,10 @@ backend:
   name: github
   repo: ProsperW23/artist-portfolio
   branch: main
-  base_url: https://api.netlify.com
+  base_url: https://decap-cms-oauth.netlify.app
   auth_endpoint: auth
+  client_id: Ov23liTM8DK2vY0BkPis
+
 
 site_url: https://digital-exhibitions.netlify.app
 
