@@ -28,8 +28,8 @@ function formatNaira(amount){
 }
 
 async function loadJSON() {
-  const SPACE_ID = "PASTE_SPACE_ID_HERE";
-  const ACCESS_TOKEN = "PASTE_DELIVERY_TOKEN_HERE";
+  const SPACE_ID = "m7u0nh6c8153";
+  const ACCESS_TOKEN = "uvo2iLAcGCaaMg4InmZUZdc7cYH52m-eBksa0wFhJQc";
 
   const url = `https://cdn.contentful.com/spaces/${SPACE_ID}/entries?content_type=artwork&access_token=${ACCESS_TOKEN}&include=1`;
 
