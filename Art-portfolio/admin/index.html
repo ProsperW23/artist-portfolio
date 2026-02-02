@@ -1,28 +1,13 @@
 <!doctype html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Content Manager</title>
-  </head>
-
-  <body>
-    <!-- Decap needs this box FIRST -->
-    <div id="nc-root"></div>
-
-    <!-- 1) OAuth helper -->
-    <script src="https://unpkg.com/netlify-cms-oauth-client@1.0.0/dist/netlify-cms-oauth-client.js"></script>
-
-    <!-- 2) Configure with your Netlify SITE UUID -->
-    <script>
-      if (window.netlify) {
-        window.netlify.configure({
-          site_id: "e4e3c6f7-62e7-4158-a286-a0b70ef52dc4"
-        });
-      }
-    </script>
-
-    <!-- 3) Then load Decap -->
     <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+  </head>
+  <body>
+    <div id="nc-root"></div>
   </body>
 </html>
+
