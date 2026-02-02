@@ -464,7 +464,7 @@ async function main(){
   applySiteText();
 
   // page specific
-  if($("#homeFeaturedGrid")) renderHomeFeatured();
+  // if($("#homeFeaturedGrid")) renderHomeFeatured();
   if($("#worksGrid")) renderWorksCatalogue();
   if($("#viewerMain")) renderWorkDetail();
   if($("#commissionAccordion")) renderCommissionAccordion();
