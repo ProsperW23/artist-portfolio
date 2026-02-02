@@ -28,31 +28,27 @@ function formatNaira(amount){
 }
 
 async function loadJSON() {
-  const SPACE_ID = "m7u0nh6c8153";
-  const ACCESS_TOKEN = "uvo2iLAcGCaaMg4InmZUZdc7cYH52m-eBksa0wFhJQc";
+  const SPACE_ID = "PASTE_SPACE_ID_HERE";
+  const ACCESS_TOKEN = "PASTE_DELIVERY_TOKEN_HERE";
 
   const url = `https://cdn.contentful.com/spaces/${SPACE_ID}/entries?content_type=artwork&access_token=${ACCESS_TOKEN}&include=1`;
 
   const res = await fetch(url);
   const data = await res.json();
 
-  state.artworks = data.items.map(item => {
-    const fields = item.fields;
-    const imageAsset = data.includes.Asset.find(
-      a => a.sys.id === fields.image?.sys.id
-    );
+  console.log("CONTENTFUL RAW:", data);
 
-    return {
-      title: fields.artwork,
-      description: fields.description,
-      price: fields.price,
-      sold: fields.sold,
-      image: imageAsset
-        ? "https:" + imageAsset.fields.file.url
-        : ""
-    };
-  });
+  state.artworks = data.items.map(item => ({
+    title: item.fields.artwork || "",
+    description: item.fields.description || "",
+    price: item.fields.price || 0,
+    sold: item.fields.sold || false,
+    imageId: item.fields.image?.sys?.id || ""
+  }));
+
+  console.log("MAPPED ARTWORKS:", state.artworks);
 }
+
 
 
 function applySiteText(){
